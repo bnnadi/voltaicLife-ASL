@@ -1,0 +1,8 @@
+Statement of Purpose:
+
+For this project I will be using Ruby on Rails to create a website where people with like interests in music can meet and talk about concerts new albums and their favorite songs. Users can upload photos of events they been to, also see upcoming concerts of favorite artists.
+
+Version 1 features:
+User will have login functionality which will be checked against a database for verification. The ability to see upcoming concerts, have user photos and post messages and responds to threads. 
+
+
