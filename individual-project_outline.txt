@@ -1,8 +1,18 @@
-Statement of Purpose:
+Website Name: 
+voltaicLife
 
-For this project I will be using Ruby on Rails to create a website where people with like interests in music can meet and talk about concerts new albums and their favorite songs. Users can upload photos of events they been to, also see upcoming concerts of favorite artists.
+Description:
+This website is where people with like interests in music can meet and talk about concerts new albums and their favorite songs. Users can upload photos of events they been to, also see upcoming concerts of favorite artists.
+
+Language and framework: 
+Ruby on Rails
+
+gitHub link:
+https://github.com/bnnadi/voltaicLife-ASL.git
 
 Version 1 features:
-User will have login functionality which will be checked against a database for verification. The ability to see upcoming concerts, have user photos and post messages and responds to threads. 
+User will have login functionality which will be checked against a database for verification. The ability to see upcoming concerts. post messages and responds to threads. 
 
 
+Version 2 features:
+The users will have the ability to post photos of concerts they have been to and videos
