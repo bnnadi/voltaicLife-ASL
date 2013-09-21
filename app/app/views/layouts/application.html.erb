@@ -7,8 +7,24 @@
   <%= csrf_meta_tags %>
 </head>
 <body>
+			<div class="navbar navbar-fixed-top">
+				<div class="navbar-inner">
+					<div class="conatiner">
+									<a class="brand" href="#">VoltaicLife</a>
+									<ul class="nav">
+										<li><%= link_to "Login",  statuses_path %></li>
+									</ul>
+					</div>
+				</div>
+			</div>
 
-<%= yield %>
+	<div class="container">
+		<p class="notice"><%= notice %></p>
+       <p class="alert"><%= alert %></p>
+		<%= yield %>
+	</div>
+	
+
 
 </body>
 </html>

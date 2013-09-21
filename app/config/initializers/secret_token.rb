@@ -9,4 +9,4 @@
 
 # Make sure your secret_key_base is kept private
 # if you're sharing your code publicly.
-VoltaicLife::Application.config.secret_key_base = '1993dade60d32fe2a49f9b3577910faf75ae98e1b7bc133bb579493efaa0989599c2bb1e41cce7f97b739b5885af770ff26d21511e808c4b8a0ba9c4e3bf2a06'
+VoltaicLife::Application.config.secret_key_base = '835b8308bae84d9eaa29caaae5aa1071da2f7385b79d87b366b096134b10762c560b67aa5714c89672b29bd686e05fb82085d9424a381292e178beb02b8fbe80'
