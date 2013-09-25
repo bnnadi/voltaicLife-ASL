@@ -40,7 +40,6 @@ GEM
       coffee-script-source
       execjs
     coffee-script-source (1.6.3)
-    country_select (1.2.0)
     devise (3.1.0)
       bcrypt-ruby (~> 3.0)
       orm_adapter (~> 0.1)
@@ -70,6 +69,7 @@ GEM
       activesupport (>= 3.0.0)
       cocaine (~> 0.5.0)
       mime-types
+    pg (0.17.0)
     polyglot (0.3.3)
     protected_attributes (1.0.3)
       activemodel (>= 4.0.0, < 5.0)
@@ -134,11 +134,11 @@ PLATFORMS
 
 DEPENDENCIES
   coffee-rails (~> 4.0.0)
-  country_select
   devise
   jbuilder (~> 1.2)
   jquery-rails
   paperclip (~> 3.0)
+  pg
   protected_attributes
   rails (= 4.0.0)
   sass-rails (~> 4.0.0)
