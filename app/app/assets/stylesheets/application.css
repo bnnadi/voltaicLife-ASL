@@ -20,6 +20,9 @@ body {
 .wrap {
     min-height: 100%;
 }
+.alert {
+	margin-top: 10px;
+}
 
 .top {
 	margin-top: 5px;
