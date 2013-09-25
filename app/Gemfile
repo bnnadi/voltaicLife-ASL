@@ -43,7 +43,7 @@ group :doc do
 end
 
 # Use for Jambase Api
-gem 'madcowley-jambase4r'
+gem "madcowley-jambase4r", "~> 1.1.3"
 
 # Use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'

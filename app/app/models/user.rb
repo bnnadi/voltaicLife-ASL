@@ -5,6 +5,17 @@ class User < ActiveRecord::Base
          :recoverable, :rememberable, :trackable, :validatable
   attr_accessible :avatar, :first_name, :last_name, :profile_name,  :email, :password, :password_confirmation, :remember_me, :full_name
   
+    validates :first_name, presence: true
+
+  validates :last_name, presence: true
+
+  validates :profile_name, presence: true,
+                           uniqueness: true,
+                           format: {
+                             with: /[a-zA-Z0-9_-]/,
+                             message: 'Must be formatted correctly.'
+                           }
+  
   has_attached_file :avatar, :styles => {:medium => "300x300>", :thumb => "100x100>" }, :default_url => "/images/:style/missing.png"
 
  
