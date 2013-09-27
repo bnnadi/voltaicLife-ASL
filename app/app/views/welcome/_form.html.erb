@@ -1,6 +1,6 @@
 <div class="span7 offset2">
 	<%= form_tag("/search", method: "get", html: {class: "form-inline"}) do %>
-	<%= select_tag "search by", options_for_select(%w{ Artist Venue Zipcode }) %>
+	<%= select_tag "search by", options_for_select(%w{ band venue zipcode }) %>
 	  <%= text_field_tag(:q) %>
 	  <%= submit_tag("Search") %>
 	<% end %>
